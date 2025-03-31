@@ -4,4 +4,4 @@
 
 
 # physics involved 
-![work shown](stuff.pdf) 
+![work shown](stuff.png) 
