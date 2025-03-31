@@ -5,12 +5,12 @@
 ## C++ OpenGL Code Execution on macOS (Apple Silicon)
 
 **Compilation & Execution Flow:**
-
-+---------------+ --> +--------+ --> +-------+ +----------+ --> +-------+ --> +-----+ +-----------+ --> +-------+
-| Source (.cpp) |     | Clang  |     | Object| |Libraries|     |Linker |     | Exec| |macOS + GPU|     |Display|
-|               |     |        |     | (.o)  | (.dylib/.framework) |         |utable| |Drivers    |     |       |
-+---------------+ --> +--------+ --> +-------+ +----------+ --> +-------+ --> +-----+ +-----------+ --> +-------+
-
+          
+          +---------------+ --> +--------+ --> +-------+ +----------+ --> +-------+ --> +-----+ +-----------+ --> +-------+
+          | Source (.cpp) |     | Clang  |     | Object| |Libraries|     |Linker |     | Exec| |macOS + GPU|     |Display|
+          |               |     |        |     | (.o)  | (.dylib/.framework) |         |utable| |Drivers    |     |       |
+          +---------------+ --> +--------+ --> +-------+ +----------+ --> +-------+ --> +-----+ +-----------+ --> +-------+
+          
 
 **Key Elements:**
 
