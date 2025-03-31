@@ -29,17 +29,17 @@ Code (.cpp) --> Clang (Arm64) --> Object (.o) + Libraries --> Linker --> Executa
 
 **System Differences (change based on OS)**
 
-+-----------------+-----------------+-----------------+-----------------+
-| Feature         | macOS (M2)      | Windows         | Linux           |
-+-----------------+-----------------+-----------------+-----------------+
-| Architecture    | Arm64           | x86_64 (mostly) | x86_64/Arm (var)|
-| Windowing       | macOS native    | Win32/DirectX   | X11/Wayland     |
-| Graphics        | OpenGL.framework| DirectX/OpenGL  | Mesa (OpenGL)   |
-| Libraries       | .dylib/.framework| .dll            | .so             |
-| Compiler        | Clang           | MSVC/GCC/Clang  | GCC/Clang       |
-| C++ Lib         | libc++          | MSVCRT/MinGW    | libstdc++       |
-| Binary Format   | Mach-O          | PE              | ELF             |
-+-----------------+-----------------+-----------------+-----------------+
+          +-----------------+-----------------+-----------------+-----------------+
+          | Feature         | macOS (M2)      | Windows         | Linux           |
+          +-----------------+-----------------+-----------------+-----------------+
+          | Architecture    | Arm64           | x86_64 (mostly) | x86_64/Arm (var)|
+          | Windowing       | macOS native    | Win32/DirectX   | X11/Wayland     |
+          | Graphics        | OpenGL.framework| DirectX/OpenGL  | Mesa (OpenGL)   |
+          | Libraries       | .dylib/.framework| .dll            | .so             |
+          | Compiler        | Clang           | MSVC/GCC/Clang  | GCC/Clang       |
+          | C++ Lib         | libc++          | MSVCRT/MinGW    | libstdc++       |
+          | Binary Format   | Mach-O          | PE              | ELF             |
+          +-----------------+-----------------+-----------------+-----------------+
 
 
 
